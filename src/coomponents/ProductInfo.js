@@ -49,7 +49,7 @@ const ProductInfo = () => {
             </h1>
           </div>
 
-          <button
+          {/* <button
             className="
 						focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800
 						text-base
@@ -101,10 +101,23 @@ const ProductInfo = () => {
                 strokeLinejoin="round"
               />
             </svg>
-            Contact Us
+          <a href="http://wa.me/+917003278402"/>
           </button>
-        
-        
+         */}
+         <div class="mt-4 px-5 pb-5">
+              <a href="#">
+                <h5 class="text-base tracking-tight text-slate-900">
+                  {product.ProductName}
+                </h5>
+              </a>
+             
+              <a
+                href="http://wa.me/+917003278402"
+                class="flex items-center justify-center rounded-md  mt-2 font-bold bg-green-500 px-5 py-2.5 text-center text-sm  text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
+              >
+                Contact
+              </a>
+            </div>
           
         </div>
       </div>
